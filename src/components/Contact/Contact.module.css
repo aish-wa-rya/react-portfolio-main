@@ -1,0 +1,94 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  font-family: "Sacramento";
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.copyright h3 {
+  margin-top: 5px; /* Adjust as needed */
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+
+.text p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 15px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.link button {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: rgb(242, 242, 242);
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.link button:hover {
+  background-color: rgb(137, 3, 95);
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}

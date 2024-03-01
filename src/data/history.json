@@ -1,0 +1,40 @@
+[
+  {
+    "role": "CS50's Introduction to Programming",
+    "organisation": "Coursera",
+    "startDate": "Nov, 2023",
+    "endDate": "Dec, 2023",
+    "experiences": ["Worked on Python", "Concepts like abstraction, algorithms, data structures, etc."],
+    "imageSrc": ""
+  },
+  {
+    "role": "Flutter Course for Beginners",
+    "organisation": "FreeCodeCamp",
+    "startDate": "Jan 2023",
+    "endDate": "June, 2023",
+    "experiences": ["Worked on FLutter", "Designed the Minor Project App"],
+    "imageSrc": "history/"
+  },
+  {
+    "role": "Learn React",
+    "organisation": "Code Academy",
+    "startDate": "Dec 2023",
+    "endDate": "Jan 2024",
+    "experiences": [
+      "Worked on component library",
+      "Helped create UI components"
+    ],
+    "imageSrc": "history/"
+  },
+  {
+    "role": "Introduction to Software Engineering",
+    "organisation": "IBM, Coursera",
+    "startDate": "Feb, 2024",
+    "endDate": "Ongoing",
+    "experiences": [
+      "Worked on components of software engineering",
+      "Describe software engineering, SDLC and software development tools."
+    ],
+    "imageSrc": "history/"
+  }
+]

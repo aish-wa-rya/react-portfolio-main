@@ -1,0 +1,55 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-family: "Sacramento";
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  /* text-transform: uppercase; */
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.spot1,
+.spot2,
+.spot3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.spot1 {
+  top: 50px;
+  left: 100px;
+  background: radial-gradient(circle, #00FFFF 20%, transparent 30%); /* Spot 1 color */
+}
+
+.spot2 {
+  top: 150px;
+  left: 250px;
+  background: radial-gradient(circle, #FF00FF 20%, transparent 30%); /* Spot 2 color */
+}
+
+.spot3 {
+  top: 200px;
+  left: 400px;
+  background: radial-gradient(circle, #32CD32 20%, transparent 30%); /* Spot 3 color */
+}
+

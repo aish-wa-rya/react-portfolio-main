@@ -1,0 +1,51 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Javascript",
+    "imageSrc": "skills/javascript.svg"
+  },
+  {
+    "title": "Flutter",
+    "imageSrc": "skills/flutter-svg.svg"
+  },
+  {
+    "title": "Firebase",
+    "imageSrc": "skills/firebase-icon.svg"
+  },
+  {
+    "title": "C/C++",
+    "imageSrc": "skills/c-logo.svg"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java-icon.svg"
+  },
+  {
+    "title": "MS SQL",
+    "imageSrc": "skills/mssql-logo.svg"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python-icon.svg"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  }
+
+]
